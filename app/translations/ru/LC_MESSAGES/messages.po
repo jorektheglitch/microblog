@@ -1,0 +1,253 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-10-15 13:41+0300\n"
+"PO-Revision-Date: 2020-09-27 00:30+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+#: app/__init__.py:24
+msgid "Please log in to access this page."
+msgstr "Эта страница доступна только авторизованным пользователям."
+
+#: app/auth/email.py:8
+msgid "[Microblog] Reset Your Password"
+msgstr "[Microblog] Сброс пароля"
+
+#: app/auth/forms.py:11 app/auth/forms.py:17 app/main/forms.py:10
+msgid "Username"
+msgstr "Имя пользователя"
+
+#: app/auth/forms.py:12 app/auth/forms.py:19 app/auth/forms.py:40
+msgid "Password"
+msgstr "Пароль"
+
+#: app/auth/forms.py:13
+msgid "Remember Me"
+msgstr "Запомнить меня"
+
+#: app/auth/forms.py:14 app/templates/auth/login.html:5
+msgid "Sign In"
+msgstr "Вход"
+
+#: app/auth/forms.py:18 app/auth/forms.py:36
+msgid "Email"
+msgstr "Email"
+
+#: app/auth/forms.py:21
+msgid "Repeat password"
+msgstr "Повторите пароль"
+
+#: app/auth/forms.py:23 app/auth/handlers.py:53
+#: app/templates/auth/register.html:5
+msgid "Register"
+msgstr "Регистрация"
+
+#: app/auth/forms.py:28 app/main/forms.py:22
+msgid "Please use a different username."
+msgstr "Это имя занято, используйте другое."
+
+#: app/auth/forms.py:33
+msgid "Please use a different email address."
+msgstr "Этот адрес почты уже используется, используйте другой."
+
+#: app/auth/forms.py:37 app/auth/forms.py:43
+msgid "Request Password Reset"
+msgstr "Запрос сброса пароля"
+
+#: app/auth/forms.py:42
+msgid "Repeat Password"
+msgstr "Повторите пароль"
+
+#: app/auth/handlers.py:25
+msgid "Invalid username or password"
+msgstr "Некорректное имя или пароль"
+
+#: app/auth/handlers.py:32
+msgid "SignIn"
+msgstr "Вход"
+
+#: app/auth/handlers.py:51
+msgid "Congratulations, you are now a registered user!"
+msgstr "Поздравляем, вы зарегистрированы!"
+
+#: app/auth/handlers.py:64
+msgid "Check your email for the instructions to reset your password"
+msgstr "Инструкция по сбросу пароля отправлена на ваш email"
+
+#: app/auth/handlers.py:67 app/templates/auth/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Сброс пароля"
+
+#: app/auth/handlers.py:80
+msgid "Your password has been reset."
+msgstr "Ваш пароль обновлён."
+
+#: app/main/forms.py:11
+msgid "About me"
+msgstr "Обо мне"
+
+#: app/main/forms.py:12 app/main/forms.py:27
+msgid "Submit"
+msgstr "Отправить"
+
+#: app/main/forms.py:25
+msgid "Say something"
+msgstr "Что нового?"
+
+#: app/main/handlers.py:35
+msgid "Your post is now live!"
+msgstr "Запись опубликована!"
+
+#: app/main/handlers.py:45 app/templates/base.html:21
+msgid "Home"
+msgstr "Главная"
+
+#: app/main/handlers.py:60 app/templates/base.html:22
+msgid "Explore"
+msgstr "Все записи"
+
+#: app/main/handlers.py:93
+msgid "Your changes have been saved."
+msgstr "Изменения сохранены."
+
+#: app/main/handlers.py:98 app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Редактирование профиля"
+
+#: app/main/handlers.py:105 app/main/handlers.py:120
+#, python-format
+msgid "User %(username)s not found."
+msgstr "Пользователь %(username)s не найден."
+
+#: app/main/handlers.py:108
+msgid "You cannot follow yourself!"
+msgstr "Вы не можете подписаться на себя!"
+
+#: app/main/handlers.py:112
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "Вы подписались на %(username)s."
+
+#: app/main/handlers.py:123
+msgid "You cannot unfollow yourself!"
+msgstr "Вы не можете отписаться от себя!"
+
+#: app/main/handlers.py:127
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "Вы не подписаны на %(username)s."
+
+#: app/templates/_post.html:15
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s высказался %(when)s"
+
+#: app/templates/_post.html:22
+msgid "Translate"
+msgstr "Перевести"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "Добро пожаловать в Microblog"
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "Войти"
+
+#: app/templates/base.html:28
+msgid "Profile"
+msgstr "Профиль"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "Выйти"
+
+#: app/templates/base.html:66
+msgid "Error: Could not contact server."
+msgstr "Ошибка: сервер недоступен"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "Привет, %(username)s!"
+
+#: app/templates/index.html:17 app/templates/user.html:41
+msgid "Newer posts"
+msgstr "К новым записям"
+
+#: app/templates/index.html:22 app/templates/user.html:46
+msgid "Older posts"
+msgstr "К старым записям"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "Пользователь"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "Был онлайн"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d подписчиков"
+
+#: app/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "%(count)d подписок"
+
+#: app/templates/user.html:20
+msgid "Follow"
+msgstr "Подписаться"
+
+#: app/templates/user.html:27
+msgid "Unfollow"
+msgstr "Отписаться"
+
+#: app/templates/auth/login.html:12
+msgid "New User?"
+msgstr "Не зарегистрированы?"
+
+#: app/templates/auth/login.html:12
+msgid "Click to Register!"
+msgstr "Регистрация"
+
+#: app/templates/auth/login.html:14
+msgid "Forgot Your Password?"
+msgstr "Забыли пароль?"
+
+#: app/templates/auth/login.html:15
+msgid "Click to Reset It"
+msgstr "Сброс пароля"
+
+#: app/templates/auth/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Сброс пароля"
+
+#~ msgid "Not Found"
+#~ msgstr "Нет такой страницы"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "An unexpected error has occurred"
+#~ msgstr "Непредвиденная ошибка"
+
+#~ msgid "The administrator has been notified. Sorry for the inconvenience!"
+#~ msgstr "Администрация уведомлена. Извиняемся за неудобства."
+
